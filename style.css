@@ -1,0 +1,134 @@
+* {
+    padding: : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-size: 16px;
+    background-color: teal;
+}
+
+.brand-name{
+    padding: 20px;
+    color: white;
+    margin-right:auto ;
+    margin-left: 2rem;
+}
+
+span{
+    color: cyan;
+}
+.navbar-header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: flex-end;
+    list-style-type: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.navbar-menu {
+
+}
+
+.navbar-menu ul{
+    display:  flex;
+    text-align: center;
+    list-style: none;
+}
+
+.navbar-menu li {
+  list-style: none;
+}
+
+.navbar-menu a {
+    padding: 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-menu a:hover {
+    color:white;
+    font-weight: bold;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: ;
+}
+
+li a:hover:not(.active) {
+    color: cyan;
+}
+
+.active {
+    background-color: blue;
+}
+
+a {
+    color: greenyellow;
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+#home {
+    background-image: linear-gradient(rgb(21, 21, 31), cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#skills {
+    background-image: linear-gradient(rgb(12, 209, 140), pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about {
+    background-image: linear-gradient(rgb(183, 89, 200), cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer {
+    flex: auto;
+    padding: : 5px;
+    text-align: center;
+    font-size: 1rem;
+    height: 100vh;
+}
+
+
+#home h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+footer {
+    padding: 5px;
+    text-align: center;
+    height: 25vh;
+}
